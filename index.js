@@ -85,12 +85,12 @@ function polje(poljeUpisa) {
     for (var i = 0; i < hrvmalim.length; i++) {
         if (document.getElementById(poljeUpisa).value === hrvmalim[i]) {
 		    nalazi = true;
-	        alert("Upisano mjesto se nalazi u pograničnom području!");
+	        alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!");
 		    break;
 	    }
 	}
     if (nalazi === false) {
-        alert("Upisano mjesto nije u pograničnom području!");
+        alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!");
     }
 	
 }
@@ -100,12 +100,12 @@ function polje2(poljeUpisa2) {
     for (var i = 0; i < bihmalim.length; i++) {
         if (document.getElementById(poljeUpisa2).value === bihmalim[i]) {
 		    nalazi = true;
-	        alert("Upisano mjesto se nalazi u pograničnom području!");
+	        alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!");
 		    break;
 	    }
 	}
     if (nalazi === false) {
-      alert("Upisano mjesto nije u pograničnom području!");
+      alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!");
     }
 	
 }
