@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>(Ne)Pogranična mjesta</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<p style="text-align: center">© zzivic 2022. </p>
+		<div id="sredina">
+			<h2 style="text-align: center;">Pogranična područja u RH i BiH</h2>
+			<form onSubmit="polje('poljeUpisa');">
+			<label>
+				Mjesto prebivališta u Hrvatskoj:
+				<input type="text" id="poljeUpisa" autocomplete="off">
+				<input type="submit" value="PRETRAŽI">
+			</label>
+			</form>
+			<br>
+			<form onSubmit="polje2('poljeUpisa2');">
+			<label>
+				Mjesto izdavanja računa u BiH  :
+				<input type="text" id="poljeUpisa2" autocomplete="off">
+				<input type="submit" value="PRETRAŽI">
+			</label>
+			</form>
+		</div>
+		<br>
+		<div id="ispodSredine">
+			<h2 style="color: red;">Pozor!</h2>
+			<p>Provjerite Vaš unos (slova č i ć) te da li ste dobro upisali naziv mjesta.</p>
+			<p>Velika i mala slova pri unosu nisu bitna. Svako polje se pretražuje zasebno. Mjesta su ažurirana po zadnjem popisu pograničnih mjesta u HR i BiH.
+		    <span style="text-decoration: underline;">Korištenje na vlastitu odgovornost.</span></p>
+		</div>
+		<img class="karta" src="rh karta.png" alt="slika karte RH">
+		
+		
+    
+
+	<script src="index.js"></script>
+	</body>
+</html>
