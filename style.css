@@ -21,3 +21,8 @@ img.karta {
 	left: 330px;
 	z-index: -1;
 }
+@media screen and (min-width: 480px) {
+  img.karta {
+    display: none;
+  }
+}
