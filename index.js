@@ -83,29 +83,45 @@ var nalazi = false;
 function polje(poljeUpisa) {
     document.getElementById(poljeUpisa).value = document.getElementById(poljeUpisa).value.toLowerCase();
     for (var i = 0; i < hrvmalim.length; i++) {
-        if (document.getElementById(poljeUpisa).value === hrvmalim[i]) {
-		    nalazi = true;
-	        alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!\nOsim u slučaju ako kupuje robu izvan pograničnog područja u BiH.");
+        if (document.getElementById(poljeUpisa).value === "") {
+			nalazi = true;
+			alert("Polje za unos je prazno!");
+			break;
+		}
+        
+	    
+		else if (document.getElementById(poljeUpisa).value === hrvmalim[i]) {
+			nalazi = true;
+		    alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!\nOsim u slučaju ako kupuje robu izvan pograničnog područja u BiH.");
 		    break;
-	    }
-	}
-    if (nalazi === false) {
-        alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!");
+		}
+		
     }
+	if (nalazi === false) {
+			alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!");
+	}
 	
 }
 
 function polje2(poljeUpisa2) {
     document.getElementById(poljeUpisa2).value = document.getElementById(poljeUpisa2).value.toLowerCase();
     for (var i = 0; i < bihmalim.length; i++) {
-        if (document.getElementById(poljeUpisa2).value === bihmalim[i]) {
-		    nalazi = true;
-	        alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!\nOsim u slučaju ako stranka nema prebivalište u pograničnom području RH.");
+		if (document.getElementById(poljeUpisa2).value === "") {
+			nalazi = true;
+			alert("Polje za unos je prazno!");
+			break;
+		}
+        
+	    
+		else if (document.getElementById(poljeUpisa2).value === bihmalim[i]) {
+			nalazi = true;
+		    alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!\nOsim u slučaju ako stranka nema prebivalište u pograničnom području RH.");
 		    break;
-	    }
-	}
-    if (nalazi === false) {
-      alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!");
+		}
+		
     }
+	if (nalazi === false) {
+			alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!");
+	}
 	
 }
