@@ -85,7 +85,7 @@ function polje(poljeUpisa) {
     for (var i = 0; i < hrvmalim.length; i++) {
         if (document.getElementById(poljeUpisa).value === hrvmalim[i]) {
 		    nalazi = true;
-	        alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!");
+	        alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!\nOsim u slučaju da kupuje robu izvan pograničnog područja treće zemlje.");
 		    break;
 	    }
 	}
@@ -100,7 +100,7 @@ function polje2(poljeUpisa2) {
     for (var i = 0; i < bihmalim.length; i++) {
         if (document.getElementById(poljeUpisa2).value === bihmalim[i]) {
 		    nalazi = true;
-	        alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!");
+	        alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn!\nOsim u slučaju da stranka nema prebivalište u pograničnom području RH.");
 		    break;
 	    }
 	}
