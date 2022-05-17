@@ -36,7 +36,7 @@ img.karta {
 	display: block;
 	margin: auto;
 	position: relative;
-	bottom: 260px;
+	bottom: 248px;
 	left: 430px;
 	z-index: -1;
 	
@@ -44,9 +44,10 @@ img.karta {
 
 .popisrh {
   display: block;
+  margin: auto;
   position: relative;
-  bottom: 400px;
-  left: 370px;
+  bottom: 417px;
+  left: -264px;
   cursor: pointer;
 }
 
