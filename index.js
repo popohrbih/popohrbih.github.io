@@ -125,3 +125,27 @@ function polje2(poljeUpisa2) {
 	}
 	
 }
+hrvatska.sort();
+var hrlang = hrvatska.length;
+
+
+text = "<ul>";
+for (let i = 0; i < hrlang; i++) {
+  text += "<li>" + hrvatska[i] + "</li>";
+}
+text += "</ul>";
+
+
+document.getElementById("spisakhr").innerHTML = text;
+
+bih.sort();
+var bihlang = bih.length;
+
+text2 = "<ul>";
+for (let i = 0; i < bihlang; i++) {
+  text2 += "<li>" + bih[i] + "</li>";
+}
+text2 += "</ul>";
+
+
+document.getElementById("spisakbih").innerHTML = text2;
