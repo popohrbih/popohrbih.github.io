@@ -98,7 +98,7 @@ function polje(poljeUpisa) {
 		
     }
 	if (nalazi === false) {
-			alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!");
+			alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!\n\nNije potrebna dodatna provjera.");
 	}
 	
 }
@@ -121,7 +121,7 @@ function polje2(poljeUpisa2) {
 		
     }
 	if (nalazi === false) {
-			alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!");
+			alert("Upisano mjesto nije u pograničnom području.\nStranka ima pravo na povlasticu od 2200kn!\n\nNije potrebna dodatna provjera.");
 	}
 	
 }
