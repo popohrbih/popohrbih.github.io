@@ -113,7 +113,7 @@ function polje2(poljeUpisa2) {
 		}
         
 	    
-		else if (document.getElementById(poljeUpisa2).value === bihmalim[i]) {
+		else if(document.getElementById(poljeUpisa2).value === bihmalim[i]) {
 			nalazi = true;
 		    alert("Upisano mjesto se nalazi u pograničnom području.\nStranka nema pravo na povlasticu od 2200kn.\nOsim u slučaju ako stranka nema prebivalište u pograničnom području RH.\n\nProvjeriti mjesto na popisu zbog mogućnosti dvojnog imena naselja.");
 		    break;
